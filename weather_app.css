@@ -6,18 +6,49 @@ h1 {
     width: 100%;
 }
 
+.parent-container {
+    height: 700px;
+    padding-top: 0!important;
+}
+
 #map {
     width: 75%;
     height: 500px;
+    margin: 125px 0;
+}
+
+.location {
+    z-index: 1;
 }
 
 .weather-cards{
     border: 3px solid black;
     border-radius: 10px;
+    box-shadow: 4px 3px 8px 1px #969696;
     width: 200px;
     text-align: center;
     padding: 15px;
+}
+
+.detail-card {
+    border: 3px solid black;
+    border-radius: 10px;
     box-shadow: 4px 3px 8px 1px #969696;
+    text-align: center;
+    padding: 10px;
+    height: 500px;
+    width: 450px;
+    margin: 125px 90px;
+}
+
+.detail-card>table {
+    margin: auto;
+}
+
+
+#daily-img{
+    width: 150px;
+    height: 150px;
 }
 
 #date {
