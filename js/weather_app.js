@@ -114,5 +114,6 @@ marker.on("dragend", function(){
 function displayCityData(lat, lng){
     reverseGeocode({lat, lng}, MAPBOX_API_TOKEN).then(function(results) {
         $("#current-city").html(results)
+        console.log(results)
     })
 }
