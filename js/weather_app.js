@@ -75,10 +75,9 @@ function createDetailCard(data){
     html += `<div class="detail-card">   
                 <h3>${date}</h3>
                 <h5>${time}</h5>
-                    <hr>
                 <img id="daily-img" src="http://openweathermap.org/img/w/${data.current.weather[0].icon}.png">
-                <p>${data.current.feels_like}&#176</p>
-                <p>${data.current.weather[0].description}</p>
+                <p class="temp">${data.current.feels_like}&#176</p>
+                <p class="details">${data.current.weather[0].description}</p>
                     <hr>
                 <table>
                     <tr>
@@ -114,7 +113,7 @@ function createWeatherTables(data) {
         html += `<div class="weather-cards">
                             <h5 id="date">${date}</h5>
                             <img src="http://openweathermap.org/img/w/${data.daily[i].weather[0].icon}.png">
-                            <p id="temp">${data.daily[i].feels_like.day}&#176</p>
+                            <p class="temp">${data.daily[i].feels_like.day}&#176</p>
                             <p>High: ${data.daily[i].temp.max}&#176</p>
                             <p>Low: ${data.daily[i].temp.min}&#176</p>
                     </div>`

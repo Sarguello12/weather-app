@@ -19,7 +19,7 @@
   <div class="container-fluid">
 
     <div class="navbar-brand">
-      <h3>Weather App</h3>
+      <h1>Weather App</h1>
     </div>
 
 <!--search bar-->
@@ -34,25 +34,25 @@
 <!--map and details card section-->
 <section>
 
-  <h1 class="text-center">Daily Forecast</h1>
+  <h1 class="heading text-center">Daily Forecast</h1>
 
   <div class="parent-container container-fluid row">
 <!--displays the current location of the marker (default is San Antonio)-->
-    <h6 class="location">Current Location: <span id="current-city">San Antonio</span></h6>
+    <h3 class="location pt-2"><span id="current-city">San Antonio</span></h3>
 
     <!--contains output of the map api-->
     <div id="map" class="col-4 w-50"></div>
 
 <!--contains the output of the details card -->
-    <div id="details" class="col-4"></div>
+    <div id="details" class="col-4 h-25 "></div>
 
   </div>
 </section>
 
 <!--section contains 5 day forecast-->
-<section>
+<section class="pt-5">
 
-  <h1 class="text-center">5 Day Weather Forecast</h1>
+  <h3 class="ps-4">5 Day Forecast</h3>
 
   <!--contains 5-day forecast of the weather api-->
   <div id="forecast" class="d-flex justify-content-evenly my-4 "></div>
@@ -61,7 +61,6 @@
 
 <!--footer with github links and info-->
 <footer>
-
 
 </footer>
 
