@@ -1,13 +1,16 @@
-section {
-    background-color: aliceblue!important;
+body {
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
 }
-
 
 .heading {
     font-size: 50px!important;
     background-color: #0d6efd;
     color: white;
     width: 100%;
+}
+
+.footer {
+
 }
 
 .parent-container {
@@ -17,8 +20,7 @@ section {
 
 #map {
     height: 500px;
-    margin: 125px 0;
-    box-shadow: 4px 3px 8px 1px #969696;
+    /*box-shadow: 4px 3px 8px 1px #969696;*/
     border-radius: 10px;
 }
 
@@ -29,7 +31,7 @@ section {
 .weather-cards{
     border: 3px solid black;
     border-radius: 10px;
-    box-shadow: 4px 3px 8px 1px #969696;
+    /*box-shadow: 4px 3px 8px 1px #969696;*/
     width: 200px;
     text-align: center;
     padding: 15px;
@@ -39,12 +41,12 @@ section {
 .detail-card {
     border: 3px solid black;
     border-radius: 10px;
-    box-shadow: 4px 3px 8px 1px #969696;
+    /*box-shadow: 4px 3px 8px 1px #969696;*/
     text-align: center;
     padding: 10px;
     height: 500px;
     width: 450px;
-    margin: 125px 90px;
+    margin: 0 140px;
     background-color: white;
 }
 

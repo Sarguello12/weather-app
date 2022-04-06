@@ -20,6 +20,7 @@
 
     <div class="navbar-brand">
       <h1>Weather App</h1>
+      <p>View the code for this project and more on my <a href="https://github.com/Sarguello12/weather-app.git" target="_blank">Github</a></p>
     </div>
 
 <!--search bar-->
@@ -34,19 +35,18 @@
 <!--map and details card section-->
 <section>
 
-  <h1 class="heading text-center">Daily Forecast</h1>
 
-  <div class="parent-container container-fluid row">
 <!--displays the current location of the marker (default is San Antonio)-->
-    <h3 class="location pt-2"><span id="current-city">San Antonio</span></h3>
+    <h3 class="location p-4"><span id="current-city">San Antonio</span></h3>
 
-    <!--contains output of the map api-->
-    <div id="map" class="col-4 w-50"></div>
+    <div class="container row m-auto">
+      <!--contains output of the map api-->
+      <div id="map" class="col-4 w-50"></div>
 
-<!--contains the output of the details card -->
-    <div id="details" class="col-4 h-25 "></div>
+  <!--contains the output of the details card -->
+      <div id="details" class="col-4 h-25 "></div>
+    </div>
 
-  </div>
 </section>
 
 <!--section contains 5 day forecast-->
@@ -58,11 +58,6 @@
   <div id="forecast" class="d-flex justify-content-evenly my-4 "></div>
 
 </section>
-
-<!--footer with github links and info-->
-<footer>
-
-</footer>
 
 <!--    js links to mapbox api, js keys, jQuery, and js code file-->
 <script src="js/keys.js"></script>
