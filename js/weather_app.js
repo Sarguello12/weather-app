@@ -1,6 +1,5 @@
 "use strict";
 
-
 // ========== Initial Page Data ==========
 // initial declaration of map location (San Antonio, TX)
 let lat = 29.423017;
